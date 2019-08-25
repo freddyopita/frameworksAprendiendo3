@@ -1,0 +1,64 @@
+/*body{
+  background-color: rgba(130, 30, 40, 0.2);
+  /*background: url(../Foundation/img/resta2.jpg);no funciono colocar una imagen de fondo resta2.jpg de la carpeta img
+
+}*/
+/*div{
+  border: 1px solid orange;
+  padding: 2px;
+}
+
+/*quitar la viñeta de ul*/
+.mm{
+  list-style: none;
+}
+/*para la imagen emoggis*/
+.mag{
+  width: 15%;
+  margin: 0;
+}
+/*buscador lupa en asul*/
+.lupa{
+  padding-left: 1px;
+}
+/*tamaño icono usuario*/
+.usua{
+  font-size: 45px;
+}
+/*ya no me acuerdo creo  para correr uno los iconos*/
+.dedo{
+  margin-right: 15px;
+}
+.color-text{
+  color: blue;
+}
+h5{
+  color: #804000;
+}
+h2{
+  color: #a0d3e8;
+}
+h1{
+  color: #a0d3e8;
+}
+/*colocarle color al boton realizado con a*/
+.bot{
+  background-color: #ff0080;
+}
+/*boton mas grande del inio plato receta*/
+.botg{
+  background-color: rgba(234, 212, 221, 0.9);
+  margin-top: 5px;
+  box-shadow: 2px 2px 5px #ff0080;
+}
+.plo{
+  background: #800080;
+}
+/*ponemos color cuerpo*/
+.fuera{
+  background: #777;
+}
+/*para ver si se ve la reolucion de 639 a 1023 de una buena forma*/
+@media (min-width: 639px)and(max-width: 1023px){
+
+}

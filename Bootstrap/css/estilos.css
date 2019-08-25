@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+/*para darle color al body*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* Clase logo */
+.logo-img{
+  width: 100px;
+}
+.ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  align-self: flex-end;
+}
+.li .a {
+  display: block;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+/*para los hipervinculos con a writing-mode: vertical-lr genera epacio entre los iconos*/
+.aa {
+    writing-mode: vertical-lr;
+}
+/*para los iconos que estan acompañando el textarea comentaio*/
+.as {
+    font-size: 60px;
+}
+.lupa{
+  font-size: 48px;
+}
+.container{
+  margin-top: 110px;
+}
+/*clase para los div class="navbar-nav los 6 items se repartan en ancho columna*/
+.bot{
+  width: 150px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 575px){
+ .ul{
+     //*align-self:center;*/
+     font-size: large;
+ }
+ /*los iconos mas grandes*/
+ .aa {
+     writing-mode: vertical-lr;
+     font-size: 30px;
+ }
+ /*tamaño icono*/
+ .as {
+     font-size: 30px;
+ }
+ /*para la imagen de los articulos*/
+.im{
+  width: 100%;
+}
+.bot{
+  width: 250px;
+  margin-left: 25px;
+  text-align: center;
+}
+}
+
+@media (min-width:576px)and(max-width:991px){
+  /*para la imagen de los articulos*/
+  .im{
+   width: 100%;
+  }
+.bot{
+    width: 80px;
+    margin: auto;
+    text-align: center;
+  }
+  /*tamaño icono*/
+  .as {
+      font-size: 20px;
+  }
+}
+@media (min-width:992px){
+  .bot{
+      width: 100px;
+      margin-left: 50px;
+      text-align: center;
+    }
+}
